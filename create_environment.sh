@@ -16,7 +16,6 @@ files=(
     "app/reminder.sh"
     "modules/functions.sh"
     "startup.sh"
-    "README.md"
 )
 
 # Create directory structure
@@ -43,6 +42,10 @@ DAYS_REMAINING=2"
 
 # Populate submissions.txt with sample student records
 populate_file "$mainapp/assets/submissions.txt" "student, assignment, submission status
+Chinemerem, Shell Navigation, not submitted
+Chiagoziem, Git, submitted
+Divine, Shell Navigation, not submitted
+Anissa, Shell Basics, submitted
 David, Shell Navigation, not submitted
 Frank, Git, submitted
 Mucyo, Shell Navigation, not submitted
@@ -95,7 +98,7 @@ check_submissions \$submissions_file"
 # Populate startup.sh
 populate_file "$mainapp/startup.sh" "#!/bin/bash
 
-bash ./app/reminder.sh"
+./app/reminder.sh"
 
 # Make scripts executable
 for script in "modules/functions.sh" "startup.sh" "app/reminder.sh"; do
