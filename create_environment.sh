@@ -43,15 +43,15 @@ DAYS_REMAINING=2"
 
 # Populate submissions.txt with sample student records
 populate_file "$mainapp/assets/submissions.txt" "student, assignment, submission status
-attorney755, Shell Navigation, not submitted
-Frank Ishimwe, Git, submitted
-Mukasa, Shell Navigation, not submitted
-Pwest, Shell Basics, submitted
-Thiery, Shell Navigation, not submitted
-Elyse Ishimwe, Shell Navigation, not submitted
+David, Shell Navigation, not submitted
+Frank, Git, submitted
+Mucyo, Shell Navigation, not submitted
+Arsene, Shell Basics, submitted
+Bobi, Shell Navigation, not submitted
+Nadia, Shell Navigation, not submitted
 Becky, Shell Navigation, not submitted
-Aline, Shell Navigation, not submitted
-Sophie, Shell Navigation, submitted"
+Antoine, Shell Navigation, not submitted
+Adolfe, Shell Navigation, submitted"
 
 # Populate functions.sh
 populate_file "$mainapp/modules/functions.sh" "#!/bin/bash
